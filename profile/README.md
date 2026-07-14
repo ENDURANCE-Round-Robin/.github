@@ -40,15 +40,14 @@ centrally by the organizers once the campaign concludes.
 
 ## 🧂 Salt systems under investigation
 
-- NaCl–NdCl3
-- NaF–KF–NdF3
+- NaCl–NdCl3 (64.5–35.5 mol%)
+- NaF–KF–NdF3 (22.1–57.8–20.1 mol%)
 
 ## 📏 Properties covered
 
 Density · Melting temperature · Transition temperature · Enthalpy of fusion ·
 Heat capacity · Viscosity · Thermal conductivity · Vapour pressure · Thermal
-diffusivity · Surface tension · Corrosion · Volatility · Oxygen analysis ·
-Other (specify)
+diffusivity · Surface tension · Corrosion · Volatility · Oxygen analysis
 
 ## 📄 Submission structure at a glance
 
