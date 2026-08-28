@@ -7,9 +7,27 @@
 ![Labs](https://img.shields.io/badge/Participating_labs-14-blue)
 ![Properties](https://img.shields.io/badge/Properties_tracked-14-informational)
 ![Salts](https://img.shields.io/badge/Salt_systems-2-lightgrey)
-![Status](https://img.shields.io/badge/Status-Data_collection_open-brightgreen)
+![Status](https://img.shields.io/badge/Stage_1_of_4-Salt_Preparation-orange)
 
 </div>
+
+---
+
+## 🚦 Where we are
+
+```mermaid
+flowchart LR
+    A["🧂 Salt Preparation"]:::current --> B["🚚 Shipment"] --> C["🔬 Campaign<br/>(measurements)"] --> D["📊 Data Collection"]
+
+    classDef current fill:#2ecc71,stroke:#1e8449,color:#fff,stroke-width:2px;
+    classDef future fill:#eee,stroke:#999,color:#333;
+    class B,C,D future;
+```
+
+The two demonstrator salts are being synthesized/purified now. Shipment, the
+measurement campaign, and data collection follow — see
+[`ENDURANCE-Main`](https://github.com/ENDURANCE-Round-Robin/ENDURANCE-Main)
+for the up-to-date status and full detail.
 
 ---
 
@@ -35,8 +53,15 @@ centrally by the organizers once the campaign concludes.
 | Repository | Access | Purpose |
 |---|---|---|
 | **Participant repositories** (`RR2xxxx`) | Private — one per lab | Where each lab uploads its own experimental data and documentation. The only repos participants write to. |
-| [`Round-Robin-Shared-Files`](https://github.com/ENDURANCE-Round-Robin/Round-Robin-Shared-Files) | Read-only for all participants | Instructions, reporting templates, and naming/structure conventions. |
+| [`ENDURANCE-Main`](https://github.com/ENDURANCE-Round-Robin/ENDURANCE-Main) | Read-only for all participants | Instructions, reporting templates, naming/structure conventions, and the **KMT machine-readable submission framework** (`kmt/`). |
 | [`Dummy-Repository`](https://github.com/ENDURANCE-Round-Robin/Dummy-Repository) | Read-only for all participants | A fully worked example showing the expected folder structure and file naming for every property and salt. |
+
+## 🧬 Machine-readable submission (KMT)
+
+Alongside the Word/Excel forms, labs can submit a short annotated `.yaml` +
+`.csv` instead — checked automatically for completeness before submission.
+The Word/Excel forms stay for now; machine-readable is the stressed,
+preferred path going forward. See `ENDURANCE-Main/kmt/README.md`.
 
 ## 🧂 Salt systems under investigation
 
@@ -63,7 +88,7 @@ Salt/
 
 Every property folder always contains at least one technique-named
 subfolder — see `Dummy-Repository` for the complete reference example, and
-`Round-Robin-Shared-Files` for the full instructions.
+`ENDURANCE-Main` for the full instructions.
 
 ## ✉️ Questions or access requests
 
