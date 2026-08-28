@@ -53,8 +53,7 @@ centrally by the organizers once the campaign concludes.
 | Repository | Access | Purpose |
 |---|---|---|
 | **Participant repositories** (`RR2xxxx`) | Private — one per lab | Where each lab uploads its own experimental data and documentation. The only repos participants write to. |
-| [`ENDURANCE-Main`](https://github.com/ENDURANCE-Round-Robin/ENDURANCE-Main) | Read-only for all participants | Instructions, reporting templates, naming/structure conventions, and the **KMT machine-readable submission framework** (`kmt/`). |
-| [`Dummy-Repository`](https://github.com/ENDURANCE-Round-Robin/Dummy-Repository) | Read-only for all participants | A fully worked example showing the expected folder structure and file naming for every property and salt. |
+| [`ENDURANCE-Main`](https://github.com/ENDURANCE-Round-Robin/ENDURANCE-Main) | Read-only for all participants | Instructions, reporting templates, naming/structure conventions, the **KMT machine-readable submission framework** (`kmt/`), and a fully worked example (`Example/`) showing the expected folder structure and file naming for every property and salt. |
 
 ## 🧬 Machine-readable submission (KMT)
 
@@ -87,8 +86,8 @@ Salt/
 ```
 
 Every property folder always contains at least one technique-named
-subfolder — see `Dummy-Repository` for the complete reference example, and
-`ENDURANCE-Main` for the full instructions.
+subfolder — see `ENDURANCE-Main/Example/` for the complete reference example
+and full instructions.
 
 ## ✉️ Questions or access requests
 
