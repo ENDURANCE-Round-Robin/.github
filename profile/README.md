@@ -4,7 +4,7 @@
 
 **Work Package 2 — Chemistry of fuel salt and structural materials in reactor environment**
 
-![Labs](https://img.shields.io/badge/Participating_labs-14-blue)
+![Labs](https://img.shields.io/badge/Participating_labs-16-blue)
 ![Properties](https://img.shields.io/badge/Properties_tracked-14-informational)
 ![Salts](https://img.shields.io/badge/Salt_systems-2-lightgrey)
 ![Status](https://img.shields.io/badge/Stage_1_of_4-Salt_Preparation-orange)
